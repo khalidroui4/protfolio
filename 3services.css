@@ -1,0 +1,70 @@
+
+.main nav {
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;   
+    padding: 20px;
+}
+
+
+.main article {
+    margin-left: 300px; 
+    width: calc(100% - 300px);
+}
+
+
+.main nav ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.main nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.main nav ul li .a3 {
+    text-decoration: line-through;
+    text-decoration-color: orange;
+    text-decoration-thickness: 3px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.main nav ul li a:hover {
+    font-size: large;
+    font-weight: bold;
+}
+.section-title {
+      font-size: 14px;
+      color: #555;
+    }
+.accordion-button {
+      background: none ;
+      box-shadow: none ;
+      font-weight: bold;
+      font-size: 18px;
+    }
+.accordion-button::after {
+      font-size: 24px;
+    }
+.accordion-body {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+.accordion-body img {
+      max-width: 200px;
+      border-radius: 8px;
+    }
+.gradient-text {
+      background: linear-gradient(90deg, #c42ce2, #ffae00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+    }

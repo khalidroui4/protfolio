@@ -1,0 +1,84 @@
+
+.main nav {
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;   
+    padding: 20px;
+}
+
+
+.main article {
+    margin-left: 300px; 
+    width: calc(100% - 300px);
+}
+
+
+.main nav ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.main nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.main nav ul li .a2 {
+    text-decoration: line-through;
+    text-decoration-color: orange;
+    text-decoration-thickness: 3px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.main nav ul li a:hover {
+    font-size: large;
+    font-weight: bold;
+}
+    
+
+.name {
+    background: -webkit-linear-gradient(100deg, #ff4d4d, #ff9933, #a64dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: -50px;
+}
+
+.download {
+    margin-left: 100px;
+    color: black;
+    font-weight: 500;
+}
+
+
+.exp {
+    font-size: 50px;
+    background: -webkit-linear-gradient(100deg, #ff4d4d, #ff9933, #a64dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.exp1 {
+    margin-top: 50px;
+}
+
+.ex {
+    width: calc(100% - 13%); 
+    margin-left: 13%;     
+    background: linear-gradient(45deg, #ff4d4d, #ff9933, #a64dff);
+    margin-top: 100px;
+    padding: 40px 20px;
+}
+.resa{
+      margin-top: 40px;
+      background-color: black;
+      padding: 10px;
+      text-decoration: none;
+      color: white;
+      width: fit-content;
+}

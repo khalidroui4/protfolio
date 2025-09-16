@@ -1,0 +1,102 @@
+.main nav {
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;  
+    padding: 20px;
+}
+
+.main article {
+    margin-left: 220px;  
+    width: calc(100% - 220px);
+}
+
+
+.main nav ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.main nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.main nav ul li .a1 {
+    text-decoration: line-through;
+    text-decoration-color: orange;
+    text-decoration-thickness: 3px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.main nav ul li a:hover {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+.text-gradient {
+  background: linear-gradient(45deg, #ff4d4d, #ff9933, #a64dff);
+  -webkit-background-clip : text;
+  -webkit-text-fill-color: transparent;
+}
+
+.profile-img {
+  max-width: 350px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.photo-wrapper {
+  position: relative;
+}
+
+.gradient-shape {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+  mix-blend-mode: multiply;
+}
+
+.shape1 {
+  width: 350px;
+  height: 350px;
+  top: -30px;
+  left: 20px;
+  background: linear-gradient(135deg, #ff4d4d, #ff9933);
+  opacity: 0.8;
+}
+
+.shape2 {
+  width: 350px;
+  height: 350px;
+  top: 50px;
+  right: -40px;
+  background: linear-gradient(135deg, #a64dff, #ff4da6);
+  opacity: 0.8;
+}
+
+.social-icons a {
+  color: #000;
+  transition: color 0.3s;
+  z-index: 3;
+}
+
+.social-icons a:hover {
+  color: #ff4d4d;
+}
+.resa{
+      margin-top: 40px;
+      background-color: black;
+      padding: 10px;
+      text-decoration: none;
+      color: white;
+      width: fit-content;
+}

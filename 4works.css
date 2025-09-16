@@ -1,0 +1,133 @@
+
+.main nav {
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;  
+    padding: 20px;
+}
+
+.main article {
+    margin-left: 220px;  
+    width: calc(100% - 220px);
+}
+
+
+.main nav ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.main nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.main nav ul li .a4 {
+    text-decoration: line-through;
+    text-decoration-color: orange;
+    text-decoration-thickness: 3px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.main nav ul li a:hover {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+.main article {
+      margin-left: 260px; 
+      width: calc(100% - 260px);
+      padding: 2rem;
+    }
+
+.section-title {
+      font-weight: bold;
+      font-size: 2rem;
+    }
+.case-study {
+      font-size: 0.9rem;
+      font-style: italic;
+      color: #555;
+    }
+.project-card {
+      margin-bottom: 2rem;
+    }
+.project-text h5 {
+      font-weight: bold;
+      margin: 0;
+    }
+.project-text .arrow {
+      font-size: 1.2rem;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: .5rem;
+    }
+.btn-load {
+      background: #000;
+      color: #fff;
+      border: none;
+      padding: .75rem 1.5rem;
+      font-weight: bold;
+      border-radius: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+    }
+.btn-load img {
+      margin-left: .5rem;
+    }
+
+
+    
+.testimonial-section {
+      background: linear-gradient(90deg, #c471f5, #fa71cd, #fcb045);
+      color: #fff;
+      padding: 4rem 2rem;
+      margin-top: 4rem;
+      border-radius: 10px;
+      text-align: center;
+    }
+.testimonial-section h2 {
+      font-weight: bold;
+    }
+.testimonial-section blockquote {
+    font-size: 1.2rem;
+      font-style: italic;
+      margin: 2rem auto;
+      max-width: 600px;
+    }
+.testimonial-author {
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+.testimonial-role {
+      font-size: 0.9rem;
+      color: #f0f0f0;
+    }
+.testimonial-img {
+      max-width: 250px;
+    }
+.testimonial-controls button {
+      border: none;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin: 0 0.5rem;
+      background: #fff;
+      color: #333;
+      font-weight: bold;
+    }
+.testimonial-logos img {
+      max-height: 40px;
+      margin: 1rem 2rem;
+      filter: brightness(0) invert(1);
+    }

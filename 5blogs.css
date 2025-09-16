@@ -1,0 +1,99 @@
+
+.main nav {
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;   
+    padding: 20px;
+}
+
+
+.main article {
+    margin-left: 300px; 
+    width: calc(100% - 300px);
+}
+
+
+.main nav ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.main nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.main nav ul li .a5 {
+    text-decoration: line-through;
+    text-decoration-color: orange;
+    text-decoration-thickness: 3px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.main nav ul li a:hover {
+    font-size: large;
+    font-weight: bold;
+}
+/* Blog Section CSS */
+        .blog-section {
+            padding: 30px 0;
+        }
+        .blog-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .blog-title h6 {
+            color: gray;
+        }
+        .blog-title h2 {
+            font-weight: bold;
+        }
+        .blog-card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: left;
+            height: 100%;
+        }
+        .blog-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .blog-date {
+            font-size: 14px;
+            color: gray;
+            margin-top: 10px;
+        }
+        .blog-card h5 {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .load-btn {
+            display: block;
+            margin: 40px auto 0;
+            background: black;
+            color: #fff;
+            padding: 10px 25px;
+            border-radius: 5px;
+            border: none;
+            transition: 0.3s;
+        }
+        .load-btn:hover {
+            background: #444;
+        }
+        .resa{
+      margin-top: 40px;
+      background-color: black;
+      padding: 10px;
+      text-decoration: none;
+      color: white;
+      width: fit-content;
+}
